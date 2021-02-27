@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Data Driven Framework]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.luna.listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Add Customer Test(failed)">
+    <classes>
+      <class name="com.luna.testcases.AddCustomerTest">
+        <methods>
+          <include name="addCustomerTest" invocation-numbers="3 5"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.luna.testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- Add Customer Test(failed) -->
+  <test thread-count="5" verbose="0" name="Open Account Test(failed)">
+    <classes>
+      <class name="com.luna.testcases.OpenAccountTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="openAccountTest" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.luna.testcases.OpenAccountTest -->
+    </classes>
+  </test> <!-- Open Account Test(failed) -->
+</suite> <!-- Failed suite [Data Driven Framework] -->

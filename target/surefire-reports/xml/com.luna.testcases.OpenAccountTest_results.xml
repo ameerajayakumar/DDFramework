@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Open Account Test"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="7"
+           time="0.004">
+  <properties />
+  
+            <testcase name="openAccountTest" time="0.0" classname="com.luna.testcases.OpenAccountTest">
+          <skipped />
+    </testcase>
+            <testcase name="openAccountTest" time="0.0" classname="com.luna.testcases.OpenAccountTest">
+          <skipped />
+    </testcase>
+            <testcase name="openAccountTest" time="0.0" classname="com.luna.testcases.OpenAccountTest">
+          <skipped />
+    </testcase>
+            <testcase name="openAccountTest" time="0.0" classname="com.luna.testcases.OpenAccountTest">
+          <skipped />
+    </testcase>
+            <testcase name="openAccountTest" time="0.0" classname="com.luna.testcases.OpenAccountTest">
+          <skipped />
+    </testcase>
+            <testcase name="openAccountTest" time="0.0" classname="com.luna.testcases.OpenAccountTest">
+          <skipped />
+    </testcase>
+            <testcase name="openAccountTest" time="0.0" classname="com.luna.testcases.OpenAccountTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>
